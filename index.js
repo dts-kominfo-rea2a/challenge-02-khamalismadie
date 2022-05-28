@@ -35,6 +35,8 @@ function lakukanLooping(arrPegawai) {
   dataYangAkanDilooping.forEach(function(item) {
     if (item.jenisKelamin === "M") {
       jumlahPria++;
+    }
+  });
  
   /*
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
@@ -44,7 +46,8 @@ function lakukanLooping(arrPegawai) {
   dataYangAkanDilooping.forEach(function(item) {
     if (item.jenisKelamin === "F") {
       jumlahWanita++;
-
+    }
+  });
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
       yang akan mengomentari apakah lebih banyak Pria atau Wanita
